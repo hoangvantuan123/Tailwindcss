@@ -16,3 +16,8 @@
 - npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css
 
 - npm run dev
+
+
+# run Just-in-time mode
+
+- npx tailwindcss -i css/tailwind.css -o build/tailwind.css --watch
